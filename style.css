@@ -13,7 +13,7 @@
 body {
   font-size: 1.6rem;
   font-family: "Inter";
-  background: #292738;
+  background: #1b2727;
 }
 
 .grid {
@@ -27,10 +27,10 @@ body {
 .box {
   padding: 2.9rem 4.8rem;
 
-  background: #363447;
+  background: #3c5148;
   box-shadow: 0.3rem 0.4rem 2.6rem rgba(0, 0, 0, 0.25);
   border-radius: 1.6rem;
-  color: white;
+  color: #eaeaea;
   line-height: 160%;
 
   gap: 3.2rem;
@@ -94,7 +94,7 @@ body {
 }
 
 .bottom .item span {
-  --bg-color: #4a4556;
+  --bg-color: #eaeaea;
 }
 
 .bottom .item span:nth-child(1)::before {
@@ -115,7 +115,7 @@ body {
   place-content: center;
   justify-items: center;
   gap: 1.6rem;
-  color: #81fbb8;
+  color: #eaeaea;
 }
 
 .nps .bottom {
@@ -218,7 +218,7 @@ svg circle:nth-child(2) {
   display: block;
   height: 0.3rem;
   width: 100%;
-  background: #4a4556;
+  background: #eaeaea;
   border-radius: 99.9rem;
   position: absolute;
   top: 50%;
@@ -236,7 +236,7 @@ svg circle:nth-child(2) {
 
 .bar {
   width: 1.5rem;
-  background: linear-gradient(180deg, #90f7ec 0%, #32ccbc 100%);
+  background: linear-gradient(180deg, #d5dddf 0%, #6b8e4e 100%);
   border-radius: 99.9rem;
 
   height: var(--height);
@@ -273,3 +273,17 @@ svg circle:nth-child(2) {
     gap: 5.9rem;
   }
 }
+
+
+
+/*
+Color Style Guide:
+
+#eaeaea
+#d5dddf
+#b2c5b2
+#6b8e4e
+#3c5148
+#1b2727
+
+*/
